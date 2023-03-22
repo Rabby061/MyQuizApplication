@@ -4,21 +4,22 @@ public class newbranch {
     int roll;
     String name;
     float cgpa;
-    float marks;
+    int mark;
 
-    public newbranch(int roll, String name, float cgpa, float marks) {
+    public newbranch(int roll, String name, float cgpa, int mark) {
         this.roll = roll;
         this.name = name;
         this.cgpa = cgpa;
-        this.marks = marks;
+        this.mark = mark;
     }
 
-    public float getMarks() {
-        return marks;
+    public int getMark() {
+        return mark;
     }
 
-    public void setMarks(float marks) {
-        this.marks = marks;
+    public void setMark(int mark) {
+        this.mark = mark;
+    
     }
 
     public int getRoll() {
