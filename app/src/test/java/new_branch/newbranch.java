@@ -19,6 +19,7 @@ public class newbranch {
 
     public void setMark(int mark) {
         this.mark = mark;
+    
     }
 
     public int getRoll() {
